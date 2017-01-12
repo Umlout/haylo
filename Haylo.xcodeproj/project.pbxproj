@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68411F411E2802280008AA2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68411F401E2802280008AA2E /* AppDelegate.swift */; };
+		68411F431E2802280008AA2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68411F421E2802280008AA2E /* ViewController.swift */; };
+		68411F461E2802280008AA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68411F441E2802280008AA2E /* Main.storyboard */; };
+		68411F481E2802280008AA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68411F471E2802280008AA2E /* Assets.xcassets */; };
+		68411F4B1E2802280008AA2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68411F491E2802280008AA2E /* LaunchScreen.storyboard */; };
+		68411F561E2802280008AA2E /* HayloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68411F551E2802280008AA2E /* HayloTests.swift */; };
+		68411F611E2802280008AA2E /* HayloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68411F601E2802280008AA2E /* HayloUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68411F521E2802280008AA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68411F351E2802270008AA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68411F3C1E2802270008AA2E;
+			remoteInfo = Haylo;
+		};
+		68411F5D1E2802280008AA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68411F351E2802270008AA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68411F3C1E2802270008AA2E;
+			remoteInfo = Haylo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68411F3D1E2802280008AA2E /* Haylo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haylo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68411F401E2802280008AA2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68411F421E2802280008AA2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68411F451E2802280008AA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68411F471E2802280008AA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68411F4A1E2802280008AA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68411F4C1E2802280008AA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68411F511E2802280008AA2E /* HayloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HayloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68411F551E2802280008AA2E /* HayloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayloTests.swift; sourceTree = "<group>"; };
+		68411F571E2802280008AA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68411F5C1E2802280008AA2E /* HayloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HayloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68411F601E2802280008AA2E /* HayloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayloUITests.swift; sourceTree = "<group>"; };
+		68411F621E2802280008AA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68411F3A1E2802270008AA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68411F4E1E2802280008AA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68411F591E2802280008AA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68411F341E2802270008AA2E = {
+			isa = PBXGroup;
+			children = (
+				68411F3F1E2802280008AA2E /* Haylo */,
+				68411F541E2802280008AA2E /* HayloTests */,
+				68411F5F1E2802280008AA2E /* HayloUITests */,
+				68411F3E1E2802280008AA2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68411F3E1E2802280008AA2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68411F3D1E2802280008AA2E /* Haylo.app */,
+				68411F511E2802280008AA2E /* HayloTests.xctest */,
+				68411F5C1E2802280008AA2E /* HayloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68411F3F1E2802280008AA2E /* Haylo */ = {
+			isa = PBXGroup;
+			children = (
+				68411F401E2802280008AA2E /* AppDelegate.swift */,
+				68411F421E2802280008AA2E /* ViewController.swift */,
+				68411F441E2802280008AA2E /* Main.storyboard */,
+				68411F471E2802280008AA2E /* Assets.xcassets */,
+				68411F491E2802280008AA2E /* LaunchScreen.storyboard */,
+				68411F4C1E2802280008AA2E /* Info.plist */,
+			);
+			path = Haylo;
+			sourceTree = "<group>";
+		};
+		68411F541E2802280008AA2E /* HayloTests */ = {
+			isa = PBXGroup;
+			children = (
+				68411F551E2802280008AA2E /* HayloTests.swift */,
+				68411F571E2802280008AA2E /* Info.plist */,
+			);
+			path = HayloTests;
+			sourceTree = "<group>";
+		};
+		68411F5F1E2802280008AA2E /* HayloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68411F601E2802280008AA2E /* HayloUITests.swift */,
+				68411F621E2802280008AA2E /* Info.plist */,
+			);
+			path = HayloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68411F3C1E2802270008AA2E /* Haylo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68411F651E2802280008AA2E /* Build configuration list for PBXNativeTarget "Haylo" */;
+			buildPhases = (
+				68411F391E2802270008AA2E /* Sources */,
+				68411F3A1E2802270008AA2E /* Frameworks */,
+				68411F3B1E2802270008AA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haylo;
+			productName = Haylo;
+			productReference = 68411F3D1E2802280008AA2E /* Haylo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68411F501E2802280008AA2E /* HayloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68411F681E2802280008AA2E /* Build configuration list for PBXNativeTarget "HayloTests" */;
+			buildPhases = (
+				68411F4D1E2802280008AA2E /* Sources */,
+				68411F4E1E2802280008AA2E /* Frameworks */,
+				68411F4F1E2802280008AA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68411F531E2802280008AA2E /* PBXTargetDependency */,
+			);
+			name = HayloTests;
+			productName = HayloTests;
+			productReference = 68411F511E2802280008AA2E /* HayloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68411F5B1E2802280008AA2E /* HayloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68411F6B1E2802280008AA2E /* Build configuration list for PBXNativeTarget "HayloUITests" */;
+			buildPhases = (
+				68411F581E2802280008AA2E /* Sources */,
+				68411F591E2802280008AA2E /* Frameworks */,
+				68411F5A1E2802280008AA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68411F5E1E2802280008AA2E /* PBXTargetDependency */,
+			);
+			name = HayloUITests;
+			productName = HayloUITests;
+			productReference = 68411F5C1E2802280008AA2E /* HayloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68411F351E2802270008AA2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Daniel Taylor";
+				TargetAttributes = {
+					68411F3C1E2802270008AA2E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					68411F501E2802280008AA2E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68411F3C1E2802270008AA2E;
+					};
+					68411F5B1E2802280008AA2E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68411F3C1E2802270008AA2E;
+					};
+				};
+			};
+			buildConfigurationList = 68411F381E2802270008AA2E /* Build configuration list for PBXProject "Haylo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68411F341E2802270008AA2E;
+			productRefGroup = 68411F3E1E2802280008AA2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68411F3C1E2802270008AA2E /* Haylo */,
+				68411F501E2802280008AA2E /* HayloTests */,
+				68411F5B1E2802280008AA2E /* HayloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68411F3B1E2802270008AA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68411F4B1E2802280008AA2E /* LaunchScreen.storyboard in Resources */,
+				68411F481E2802280008AA2E /* Assets.xcassets in Resources */,
+				68411F461E2802280008AA2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68411F4F1E2802280008AA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68411F5A1E2802280008AA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68411F391E2802270008AA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68411F431E2802280008AA2E /* ViewController.swift in Sources */,
+				68411F411E2802280008AA2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68411F4D1E2802280008AA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68411F561E2802280008AA2E /* HayloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68411F581E2802280008AA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68411F611E2802280008AA2E /* HayloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68411F531E2802280008AA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68411F3C1E2802270008AA2E /* Haylo */;
+			targetProxy = 68411F521E2802280008AA2E /* PBXContainerItemProxy */;
+		};
+		68411F5E1E2802280008AA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68411F3C1E2802270008AA2E /* Haylo */;
+			targetProxy = 68411F5D1E2802280008AA2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68411F441E2802280008AA2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68411F451E2802280008AA2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68411F491E2802280008AA2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68411F4A1E2802280008AA2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68411F631E2802280008AA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68411F641E2802280008AA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68411F661E2802280008AA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Haylo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mynameisawhiskey.Haylo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		68411F671E2802280008AA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Haylo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mynameisawhiskey.Haylo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		68411F691E2802280008AA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HayloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mynameisawhiskey.HayloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haylo.app/Haylo";
+			};
+			name = Debug;
+		};
+		68411F6A1E2802280008AA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HayloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mynameisawhiskey.HayloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haylo.app/Haylo";
+			};
+			name = Release;
+		};
+		68411F6C1E2802280008AA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HayloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mynameisawhiskey.HayloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Haylo;
+			};
+			name = Debug;
+		};
+		68411F6D1E2802280008AA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HayloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mynameisawhiskey.HayloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Haylo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68411F381E2802270008AA2E /* Build configuration list for PBXProject "Haylo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68411F631E2802280008AA2E /* Debug */,
+				68411F641E2802280008AA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68411F651E2802280008AA2E /* Build configuration list for PBXNativeTarget "Haylo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68411F661E2802280008AA2E /* Debug */,
+				68411F671E2802280008AA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68411F681E2802280008AA2E /* Build configuration list for PBXNativeTarget "HayloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68411F691E2802280008AA2E /* Debug */,
+				68411F6A1E2802280008AA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68411F6B1E2802280008AA2E /* Build configuration list for PBXNativeTarget "HayloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68411F6C1E2802280008AA2E /* Debug */,
+				68411F6D1E2802280008AA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68411F351E2802270008AA2E /* Project object */;
+}
