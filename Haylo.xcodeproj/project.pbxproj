@@ -14,6 +14,7 @@
 		68411F4B1E2802280008AA2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68411F491E2802280008AA2E /* LaunchScreen.storyboard */; };
 		68411F561E2802280008AA2E /* HayloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68411F551E2802280008AA2E /* HayloTests.swift */; };
 		68411F611E2802280008AA2E /* HayloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68411F601E2802280008AA2E /* HayloUITests.swift */; };
+		68411F6F1E2809470008AA2E /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68411F6E1E2809470008AA2E /* MPCManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		68411F5C1E2802280008AA2E /* HayloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HayloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68411F601E2802280008AA2E /* HayloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayloUITests.swift; sourceTree = "<group>"; };
 		68411F621E2802280008AA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68411F6E1E2809470008AA2E /* MPCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				68411F401E2802280008AA2E /* AppDelegate.swift */,
 				68411F421E2802280008AA2E /* ViewController.swift */,
+				68411F6E1E2809470008AA2E /* MPCManager.swift */,
 				68411F441E2802280008AA2E /* Main.storyboard */,
 				68411F471E2802280008AA2E /* Assets.xcassets */,
 				68411F491E2802280008AA2E /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				68411F431E2802280008AA2E /* ViewController.swift in Sources */,
 				68411F411E2802280008AA2E /* AppDelegate.swift in Sources */,
+				68411F6F1E2809470008AA2E /* MPCManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
